@@ -1,0 +1,85 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+	display: flex;
+}
+
+.left_side {
+	background-color: #335384;
+	color: #ffffff;
+	padding: 50px;
+	flex: 10%;
+}
+
+.left_side a {
+	color: white;
+}
+
+.right_side {
+	margin-bottom: 50px;
+	padding: 50px;
+	flex: 65%;
+}
+
+.right_side h2 {
+	color: cadetblue;
+}
+
+.profile_photo {
+	border-radius: 50px 50px 50px 50px;
+	margin-top: 30px;
+	width: 250px;
+}
+
+.info {
+	margin: 20px 0;
+}
+
+.info span {
+	color: white;
+	display: inline-block;
+	width: 25%;
+	padding: 0 15px 0 0;
+}
+
+.byline {
+	color: grey;
+	margin: -15px 0 0 0;
+}
+
+h1 {
+	color: #184a6a;
+	font-size: 40px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+
+h2 {
+	color: white;
+	font-size: 25px;
+	letter-spacing: 3px;
+	margin-top: 30px;
+	text-transform: uppercase;
+}
+
+h3 {
+	color: #466E87;
+	margin-top: 25px;
+	text-transform: uppercase;
+}
+
+ul {
+	padding-left: 10px;;
+}
+
+ul li {
+	margin: 20px; 0;
+}
+
+ul ul {
+	margin-top: 5px;
+}
+
+ul ul li {
+	margin: 0;
+}
